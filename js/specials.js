@@ -12,7 +12,7 @@ checkEvent.prototype.loadContent = function(currentItem) {
   var _this = this,
       value = currentItem.val();
   if(!currentItem.index()) {
-    _this.targetDiv.remove();
+    _this.targetDiv.empty();
   }
   else {
     $.ajax({
