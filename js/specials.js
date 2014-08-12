@@ -1,7 +1,6 @@
 function checkEvent (elements) {
   this.divModule = elements.divModule;
   this.targetDiv = $("<div/>");
-  this.availableData = [];
 }
 
 checkEvent.prototype.init = function() {
